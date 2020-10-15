@@ -73,5 +73,6 @@ def lambda_handler(event, context):
 
         s3_cli.upload_file('/tmp/comments.csv', 'oproundup', 'comments.csv')
     else:
+        # TODO add some logging to track that Trakkit actually ran and delivered a negative (no new comment) result
         print('Nah')
 
