@@ -1,0 +1,10 @@
+venv/
+
+# Don't push the test .csv files, or output .csv files, or the freakin' config itself
+*.csv
+
+# Don't push the usr.txt file
+usr.txt
+
+# Ignore .idea/ directory
+.idea/
